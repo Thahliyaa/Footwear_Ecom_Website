@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+  <div class="row">
+    
+    <!-- Sidebar -->
+    <div class="col-md-3">
+      <ul class="nav flex-column bg-light p-3 shadow rounded">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'dashboard' %}">📊 Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'product_list' %}">👟 Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'product_add' %}">➕ Add Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'order_list' %}">🧾 Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'user_list' %}">👥 Users</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'sales_report' %}">📈 Sales Report</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'change_password' %}">🔐 Change Password</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="{% url 'admin_logout' %}">🚪 Logout</a>
+
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="col-md-9">
+      <div class="card shadow p-4">
+        <h4>Welcome to the Admin Dashboard 🎉</h4>
+        <p>Select an option from the left menu to manage the site.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

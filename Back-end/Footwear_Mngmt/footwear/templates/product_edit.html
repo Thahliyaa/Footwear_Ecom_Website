@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Edit Product{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-4">
+    <div class="col-md-7">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Edit Product</h4>
+            </div>
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+                        <label>Product Name</label>
+                        <input type="text" name="name" value="{{ product.name }}" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Brand</label>
+                        <input type="text" name="brand" value="{{ product.brand }}" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Category</label>
+                        <input type="text" name="category" value="{{ product.category }}" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Size</label>
+                        <input type="text" name="size" value="{{ product.size }}" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Price</label>
+                        <input type="number" name="price" value="{{ product.price }}" class="form-control" step="0.01" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Current Image</label><br>
+                        <img src="{{ product.image.url }}" width="100" class="mb-2">
+                        <input type="file" name="image" class="form-control">
+                        <small class="text-muted">Leave blank to keep current image</small>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Update Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

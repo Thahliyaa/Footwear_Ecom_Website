@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}Add Product{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-4">
+    <div class="col-md-7">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                <h4 class="mb-0">Add New Product</h4>
+            </div>
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+                        <label>Product Name</label>
+                        <input type="text" name="name" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Brand</label>
+                        <input type="text" name="brand" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Category</label>
+                        <input type="text" name="category" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Size</label>
+                        <input type="text" name="size" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Price</label>
+                        <input type="number" name="price" class="form-control" step="0.01" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Image</label>
+                        <input type="file" name="image" class="form-control" required>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success">Add Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
