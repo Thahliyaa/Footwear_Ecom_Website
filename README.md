@@ -31,12 +31,37 @@ Built with React (Frontend) and Django (Backend). Includes secure user authentic
 
 ---
 
-## Screenshots
-- Homepage ![Homepage](./Screenshots/Home.png)
-- Product List ![Product List](./Screenshots/Productlist.png)
-- Brand Page ![Brand](./Screenshots/Brand.png)
-- Women Category ![Women](./Screenshots/Women.png)
-- Admin Product Page ![Admin Product](./Screenshots/Admin_product.png)
-- Product Detail ![Product Detail](./Screenshots/Pdt Detail.png)
-- Order History ![Order History](./Screenshots/Order History.png)
-- Sales Report ![Sales Report](./Screenshots/Sales Report.png)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage  
+![Homepage](./screenshots/Home.png)
+
+### 🛍️ Product List  
+![Product List](./screenshots/Productlist.png)
+
+### 🏷️ Brand Page  
+![Brand](./screenshots/Brand.png)
+
+### 👩 Women Category  
+![Women](./screenshots/Women.png)
+
+### 🛠️ Admin Product Page  
+![Admin Product](./screenshots/Admin_product.png)
+
+### 📄 Product Detail Page  
+![Product Detail](./screenshots/Pdt Detail.png)
+
+### 📦 Order History  
+![Order History](./screenshots/Order History.png)
+
+### 📊 Sales Report  
+![Sales Report](./screenshots/Sales Report.png)
+
+---
+
+✍️ Author: **Thahliyaa Yasmin**  
+[GitHub](https://github.com/Thahliyaa)
+
