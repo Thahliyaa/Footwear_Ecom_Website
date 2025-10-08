@@ -36,7 +36,7 @@ Built with React (Frontend) and Django (Backend). Includes secure user authentic
 ![Homepage](./screenshots/Home.png)
 
 ### 🛍️ Product List
-![Product List](./screenshots/Productlist.png)
+![Product List](./screenshots/Product_List.png)
 
 ### 🏷️ Brand Page
 ![Brand](./screenshots/Brand.png)
@@ -48,14 +48,15 @@ Built with React (Frontend) and Django (Backend). Includes secure user authentic
 ![Admin Product](./screenshots/Admin_product.png)
 
 ### 📄 Product Detail Page
-![Product Detail](./screenshots/Pdt Detail.png)
+![Product Detail](./screenshots/Pdt_Detail.png)
 
 ### 📦 Order History
-![Order History](./screenshots/Order History.png)
+![Order History](./screenshots/Order_History.png)
 
 ### 📊 Sales Report
-![Sales Report](./screenshots/Sales Report.png)
+![Sales Report](./screenshots/Sales_Report.png)
 
 ✍️ Author: **Thahliyaa Yasmin**  
-[GitHub](https://github.com/Thahliyaa)
+[GitHub](https://github.com/Thahliyaa) | [LinkedIn](https://www.linkedin.com/in/thahliyaa-yasmin)
+
 
