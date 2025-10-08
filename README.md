@@ -57,6 +57,6 @@ Built with React (Frontend) and Django (Backend). Includes secure user authentic
 ![Sales Report](./screenshots/Sales_Report.png)
 
 ✍️ Author: **Thahliyaa Yasmin**  
-[GitHub](https://github.com/Thahliyaa) | [LinkedIn](https://www.linkedin.com/in/thahliyaa-yasmin)
+[GitHub](https://github.com/Thahliyaa) | [LinkedIn](https://www.linkedin.com/in/thahliya-yasmin-82593320b/)
 
 
